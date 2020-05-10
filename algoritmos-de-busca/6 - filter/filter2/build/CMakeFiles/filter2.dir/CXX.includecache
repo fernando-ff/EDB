@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/C++/github/EDB/Filter/filter2/main.cpp
+iostream
+-
+filter2Config.h
+/home/fernando/C++/github/EDB/Filter/filter2/filter2Config.h
+
+filter2Config.h
+
