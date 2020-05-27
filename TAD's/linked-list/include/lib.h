@@ -6,9 +6,10 @@
 class Node{
 	public:
 		int data;
-		Node* node;
+		Node* next;
 };
 void push( Node** head, int a);
-void printList(Node *n);
+void insert(Node* node_ref, int data);
+void printList(Node *node);
 
 #endif
