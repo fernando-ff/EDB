@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/www/C++/github/EDB/TAD's/linked-list/include/lib.h
+iostream
+-
+
+/home/fernando/www/C++/github/EDB/TAD's/linked-list/src/lib.cpp
+iostream
+-
+
+/home/fernando/www/C++/github/EDB/TAD's/linked-list/src/main.cpp
+../include/lib.h
+/home/fernando/www/C++/github/EDB/TAD's/linked-list/include/lib.h
+iostream
+-
+
