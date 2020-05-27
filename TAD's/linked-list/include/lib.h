@@ -8,6 +8,7 @@ class Node{
 		int data;
 		Node* node;
 };
+void push( Node** head, int a);
 void printList(Node *n);
 
 #endif
