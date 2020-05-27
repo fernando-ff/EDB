@@ -8,5 +8,6 @@ class Node{
 		int data;
 		Node* node;
 };
+void printList(Node *n);
 
 #endif

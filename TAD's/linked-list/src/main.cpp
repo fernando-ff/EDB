@@ -18,6 +18,8 @@ int main(){
 	third->data = 3;/*!Atribuindo um dado ao terceiro elemento da lista*/
 	third->node = NULL;/*!Estabelecendo o fim da lista*/
 
+	printList(head);
+
 	return 0;
 
 
