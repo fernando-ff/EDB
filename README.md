@@ -14,10 +14,10 @@
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/fernando-ff/edb?color=56BEB8">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/fernando-ff/edb?color=56BEB8">
+<!-- 
+  <img alt="License" src="https://img.shields.io/github/license/fernando-ff/edb?color=56BEB8"> -->
 
-  <img alt="License" src="https://img.shields.io/github/license/fernando-ff/edb?color=56BEB8">
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/edb?color=56BEB8" />
+  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/edb?color=56BEB8" /> -->
 
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/edb?color=56BEB8" /> -->
 
@@ -48,9 +48,10 @@ This Discipline was ministry by the professor Selen.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Search Algoritms;\
+:heavy_check_mark: Sorting Algorithms;
+:heavy_check_mark: TAD'S;\
+
 
 ## :rocket: Technologies ##
 
