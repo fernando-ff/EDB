@@ -49,7 +49,7 @@ This Discipline was ministry by the professor Selen.
 ## :sparkles: Features ##
 
 :heavy_check_mark: Search Algoritms;\
-:heavy_check_mark: Sorting Algorithms;
+:heavy_check_mark: Sorting Algorithms;\
 :heavy_check_mark: TAD'S;\
 
 

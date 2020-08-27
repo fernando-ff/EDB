@@ -55,10 +55,10 @@ Searching Algorithms are designed to check for an element or retrieve an element
 
 :heavy_check_mark: Linear Search;\
 :heavy_check_mark: Binary Search;\
-:heavy_check_mark: Lower Bound;
-:heavy_check_mark: Upper Bound;
-:heavy_check_mark: Bound Combined;
-:heavy_check_mark: Filter;
+:heavy_check_mark: Lower Bound;\
+:heavy_check_mark: Upper Bound;\
+:heavy_check_mark: Bound Combined;\
+:heavy_check_mark: Filter;\
 
 
 Made with :heart: by <a href="https://github.com/fernando-ff" target="_blank">Fernando Ferreira</a>
