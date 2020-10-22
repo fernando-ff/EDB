@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/fernando/code/graal/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/graal/include -I/home/fernando/code/graal/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/run_tests.dir/lib/test_manager.cpp.o -c /home/fernando/code/graal/lib/test_manager.cpp",
+  "file": "/home/fernando/code/graal/lib/test_manager.cpp"
+},
+{
+  "directory": "/home/fernando/code/graal/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/graal/include -I/home/fernando/code/graal/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/run_tests.dir/test/main.cpp.o -c /home/fernando/code/graal/test/main.cpp",
+  "file": "/home/fernando/code/graal/test/main.cpp"
+}
+]

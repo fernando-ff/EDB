@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/code/graal/include/graal.h
+utility
+-
+iterator
+-
+algorithm
+-
+
+/home/fernando/code/graal/lib/test_manager.h
+iostream
+-
+iomanip
+-
+algorithm
+-
+string
+-
+unordered_map
+-
+vector
+-
+
+/home/fernando/code/graal/test/main.cpp
+iostream
+-
+cassert
+-
+random
+-
+iterator
+-
+../lib/test_manager.h
+/home/fernando/code/graal/lib/test_manager.h
+../include/graal.h
+/home/fernando/code/graal/include/graal.h
+
