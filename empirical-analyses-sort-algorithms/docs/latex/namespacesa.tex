@@ -1,0 +1,179 @@
+\hypertarget{namespacesa}{}\doxysection{sa Namespace Reference}
+\label{namespacesa}\index{sa@{sa}}
+
+
+Search Algorithms analysed in this projct.  
+
+
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}\label{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}} 
+using \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} = unsigned int
+\begin{DoxyCompactList}\small\item\em just an alias for an integer type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$ \mbox{\hyperlink{namespacesa_ac86a5f3622b49a19b375d6380a5a913a}{partition}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em given a pivot it divides the array into two parts, elements less than or equal to the pivot and elements greater than or equal to the pivot \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_a9e42790da7a80ada78e4eefdecb83728}{insertion}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em simple sorting algorithm that works similar to the way you sort playing cards in your hands. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_aaf176de8a1d2b8c142262e58036362c9}{selection}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_aa781affe7ba3ddcef34d09b543eae147}{bubble}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_a1507af3198919019772cde4788c0b1b1}{shell}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em The idea of shell\+Sort is to allow exchange of far items. In shell\+Sort, we make the array h-\/sorted for a large value of h. We keep reducing the value of h until it becomes 1. An array is said to be h-\/sorted if all sublists of every h’th element is sorted. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_ae439bdfbe92da51836528dd6a5f6d8c0}{quicksort}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em A divide and conquer algortihm.\+It picks an element as pivot and partitions the given array around the picked pivot. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_a5b1556721e835aa662c74803d878586b}{mergesort}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em A divide and conquer algortihm. It divides divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacesa_a38a7afe944b44ff5fa3d85f67c711df6}{radix}} (\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em non-\/comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Search Algorithms analysed in this projct. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacesa_aa781affe7ba3ddcef34d09b543eae147}\label{namespacesa_aa781affe7ba3ddcef34d09b543eae147}} 
+\index{sa@{sa}!bubble@{bubble}}
+\index{bubble@{bubble}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{bubble()}{bubble()}}
+{\footnotesize\ttfamily void sa\+::bubble (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+{\em last} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_a9e42790da7a80ada78e4eefdecb83728}\label{namespacesa_a9e42790da7a80ada78e4eefdecb83728}} 
+\index{sa@{sa}!insertion@{insertion}}
+\index{insertion@{insertion}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{insertion()}{insertion()}}
+{\footnotesize\ttfamily void sa\+::insertion (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+simple sorting algorithm that works similar to the way you sort playing cards in your hands. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & pointer to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_a5b1556721e835aa662c74803d878586b}\label{namespacesa_a5b1556721e835aa662c74803d878586b}} 
+\index{sa@{sa}!mergesort@{mergesort}}
+\index{mergesort@{mergesort}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{mergesort()}{mergesort()}}
+{\footnotesize\ttfamily void sa\+::mergesort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+A divide and conquer algortihm. It divides divides input array in two halves, calls itself for the two halves and then merges the two sorted halves. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & pointer to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_ac86a5f3622b49a19b375d6380a5a913a}\label{namespacesa_ac86a5f3622b49a19b375d6380a5a913a}} 
+\index{sa@{sa}!partition@{partition}}
+\index{partition@{partition}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{partition()}{partition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}}$\ast$ sa\+::partition (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+given a pivot it divides the array into two parts, elements less than or equal to the pivot and elements greater than or equal to the pivot 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pointer} & to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+value\+\_\+type$\ast$ pointer to the pivot 
+\end{DoxyReturn}
+\mbox{\Hypertarget{namespacesa_ae439bdfbe92da51836528dd6a5f6d8c0}\label{namespacesa_ae439bdfbe92da51836528dd6a5f6d8c0}} 
+\index{sa@{sa}!quicksort@{quicksort}}
+\index{quicksort@{quicksort}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{quicksort()}{quicksort()}}
+{\footnotesize\ttfamily void sa\+::quicksort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+A divide and conquer algortihm.\+It picks an element as pivot and partitions the given array around the picked pivot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & pointer to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_a38a7afe944b44ff5fa3d85f67c711df6}\label{namespacesa_a38a7afe944b44ff5fa3d85f67c711df6}} 
+\index{sa@{sa}!radix@{radix}}
+\index{radix@{radix}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{radix()}{radix()}}
+{\footnotesize\ttfamily void sa\+::radix (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+non-\/comparative sorting algorithm. It avoids comparison by creating and distributing elements into buckets according to their radix. For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & pointer to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_aaf176de8a1d2b8c142262e58036362c9}\label{namespacesa_aaf176de8a1d2b8c142262e58036362c9}} 
+\index{sa@{sa}!selection@{selection}}
+\index{selection@{selection}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{selection()}{selection()}}
+{\footnotesize\ttfamily void sa\+::selection (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & pointer to the first element in the array \\
+\hline
+{\em last} & pointer to the last element in the array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacesa_a1507af3198919019772cde4788c0b1b1}\label{namespacesa_a1507af3198919019772cde4788c0b1b1}} 
+\index{sa@{sa}!shell@{shell}}
+\index{shell@{shell}!sa@{sa}}
+\doxysubsubsection{\texorpdfstring{shell()}{shell()}}
+{\footnotesize\ttfamily void sa\+::shell (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacesa_a65a3a170cc508e2ffb8ca70de94a42d1}{value\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+The idea of shell\+Sort is to allow exchange of far items. In shell\+Sort, we make the array h-\/sorted for a large value of h. We keep reducing the value of h until it becomes 1. An array is said to be h-\/sorted if all sublists of every h’th element is sorted. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+{\em last} & \\
+\hline
+\end{DoxyParams}

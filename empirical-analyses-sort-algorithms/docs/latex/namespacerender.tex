@@ -1,0 +1,80 @@
+\hypertarget{namespacerender}{}\doxysection{render Namespace Reference}
+\label{namespacerender}\index{render@{render}}
+
+
+Store functions that render informations about the project and helped to debug the same.  
+
+
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}\label{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}} 
+using \mbox{\hyperlink{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}{array\+\_\+type}} = unsigned int
+\begin{DoxyCompactList}\small\item\em just an alias for an integer type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{namespacerender_ad856f7f5578ff8bf510fd3e9a67a0801}{array}} (\mbox{\hyperlink{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}{array\+\_\+type}} $\ast$first, \mbox{\hyperlink{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}{array\+\_\+type}} $\ast$last)
+\begin{DoxyCompactList}\small\item\em Render the array, is useful to debbug. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespacerender_a3ad9392bc27a9d2ad5a2609badf607ee}\label{namespacerender_a3ad9392bc27a9d2ad5a2609badf607ee}} 
+void \mbox{\hyperlink{namespacerender_a3ad9392bc27a9d2ad5a2609badf607ee}{intro}} ()
+\begin{DoxyCompactList}\small\item\em Render the intro message that show the name of creator this coding. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespacerender_a00212fe8a3dfd980097cca9b5d17b6a1}\label{namespacerender_a00212fe8a3dfd980097cca9b5d17b6a1}} 
+void \mbox{\hyperlink{namespacerender_a00212fe8a3dfd980097cca9b5d17b6a1}{guide}} ()
+\begin{DoxyCompactList}\small\item\em Render the a guide line that help the user use this project. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespacerender_a8ccb3d9b3bc44f5a522e5d1d551fd737}\label{namespacerender_a8ccb3d9b3bc44f5a522e5d1d551fd737}} 
+void \mbox{\hyperlink{namespacerender_a8ccb3d9b3bc44f5a522e5d1d551fd737}{open\+\_\+file\+\_\+guide}} ()
+\begin{DoxyCompactList}\small\item\em Render more instructions how to use this project. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{namespacerender_a71bac9a2ab2600e991579cf5317b3c13}{body}} (unsigned long int sample, std\+::chrono\+::duration$<$ double $>$ result, std\+::string function, unsigned short int epoch, unsigned short int scn)
+\begin{DoxyCompactList}\small\item\em render the data generate by analyses \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespacerender_ab87efd6fda108315b0764d1d75b03be9}\label{namespacerender_ab87efd6fda108315b0764d1d75b03be9}} 
+void \mbox{\hyperlink{namespacerender_ab87efd6fda108315b0764d1d75b03be9}{help}} ()
+\begin{DoxyCompactList}\small\item\em Render the help message when the user enter in the command line with \+: \textquotesingle{}./timing\+\_\+template --help\textquotesingle{}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Store functions that render informations about the project and helped to debug the same. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{namespacerender_ad856f7f5578ff8bf510fd3e9a67a0801}\label{namespacerender_ad856f7f5578ff8bf510fd3e9a67a0801}} 
+\index{render@{render}!array@{array}}
+\index{array@{array}!render@{render}}
+\doxysubsubsection{\texorpdfstring{array()}{array()}}
+{\footnotesize\ttfamily void render\+::array (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}{array\+\_\+type}} $\ast$}]{first,  }\item[{\mbox{\hyperlink{namespacerender_aaa6e8e2e6043b86a696dcec2b229e8c9}{array\+\_\+type}} $\ast$}]{last }\end{DoxyParamCaption})}
+
+
+
+Render the array, is useful to debbug. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first} & \\
+\hline
+{\em last} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacerender_a71bac9a2ab2600e991579cf5317b3c13}\label{namespacerender_a71bac9a2ab2600e991579cf5317b3c13}} 
+\index{render@{render}!body@{body}}
+\index{body@{body}!render@{render}}
+\doxysubsubsection{\texorpdfstring{body()}{body()}}
+{\footnotesize\ttfamily void render\+::body (\begin{DoxyParamCaption}\item[{unsigned long int}]{sample,  }\item[{std\+::chrono\+::duration$<$ double $>$}]{result,  }\item[{std\+::string}]{function,  }\item[{unsigned short int}]{epoch,  }\item[{unsigned short int}]{scn }\end{DoxyParamCaption})}
+
+
+
+render the data generate by analyses 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sample} & sample analyzed \\
+\hline
+{\em result} & time taken \\
+\hline
+{\em function} & analyzed function \\
+\hline
+{\em epoch} & epoch being analyzed \\
+\hline
+{\em scn} & scenario analyzed \\
+\hline
+\end{DoxyParams}
