@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="EDB" />
+  <img style="height:108px" src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="EDB" />
 
   &#xa0;
 
