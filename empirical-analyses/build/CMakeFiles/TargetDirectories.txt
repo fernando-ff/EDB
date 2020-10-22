@@ -1,0 +1,5 @@
+/home/fernando/code/searching-exercise/build/CMakeFiles/rebuild_cache.dir
+/home/fernando/code/searching-exercise/build/CMakeFiles/edit_cache.dir
+/home/fernando/code/searching-exercise/build/CMakeFiles/run_tests.dir
+/home/fernando/code/searching-exercise/build/CMakeFiles/timing_template.dir
+/home/fernando/code/searching-exercise/build/CMakeFiles/driver_search.dir

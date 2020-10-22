@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/run_tests.dir/src/searching.cpp.o -c /home/fernando/code/searching-exercise/src/searching.cpp",
+  "file": "/home/fernando/code/searching-exercise/src/searching.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/run_tests.dir/lib/test_manager.cpp.o -c /home/fernando/code/searching-exercise/lib/test_manager.cpp",
+  "file": "/home/fernando/code/searching-exercise/lib/test_manager.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/run_tests.dir/test/run_tests.cpp.o -c /home/fernando/code/searching-exercise/test/run_tests.cpp",
+  "file": "/home/fernando/code/searching-exercise/test/run_tests.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/timing_template.dir/src/searching.cpp.o -c /home/fernando/code/searching-exercise/src/searching.cpp",
+  "file": "/home/fernando/code/searching-exercise/src/searching.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/timing_template.dir/src/timing_template.cpp.o -c /home/fernando/code/searching-exercise/src/timing_template.cpp",
+  "file": "/home/fernando/code/searching-exercise/src/timing_template.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/driver_search.dir/src/app_search.cpp.o -c /home/fernando/code/searching-exercise/src/app_search.cpp",
+  "file": "/home/fernando/code/searching-exercise/src/app_search.cpp"
+},
+{
+  "directory": "/home/fernando/code/searching-exercise/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/fernando/code/searching-exercise/include -I/home/fernando/code/searching-exercise/lib  -Wall -g   -std=gnu++11 -o CMakeFiles/driver_search.dir/src/searching.cpp.o -c /home/fernando/code/searching-exercise/src/searching.cpp",
+  "file": "/home/fernando/code/searching-exercise/src/searching.cpp"
+}
+]

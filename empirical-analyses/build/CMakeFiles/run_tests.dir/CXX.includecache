@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fernando/code/searching-exercise/include/searching.h
+iterator
+-
+
+/home/fernando/code/searching-exercise/src/searching.cpp
+iostream
+-
+../include/searching.h
+/home/fernando/code/searching-exercise/include/searching.h
+

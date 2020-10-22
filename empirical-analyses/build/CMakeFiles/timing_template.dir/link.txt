@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -Wall -g   CMakeFiles/timing_template.dir/src/searching.cpp.o CMakeFiles/timing_template.dir/src/timing_template.cpp.o  -o timing_template 
