@@ -1,3 +1,0 @@
-/home/fernando/www/C++/github/EDB/TAD's/linked-list/build/CMakeFiles/rebuild_cache.dir
-/home/fernando/www/C++/github/EDB/TAD's/linked-list/build/CMakeFiles/App.dir
-/home/fernando/www/C++/github/EDB/TAD's/linked-list/build/CMakeFiles/edit_cache.dir
